@@ -1,0 +1,130 @@
+.product-details {
+  max-width: 1200px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden; 
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.product-details .zoom-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.product-details img {
+  max-width: 70%;
+  height: auto;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.7);
+  border-radius: 8px;
+  margin-bottom: 40px;
+  display: block;
+  margin-left:25px; 
+  transition: transform 0.5s ease;
+  cursor: zoom-in; 
+}
+
+.product-details:hover img {
+  transform: scale(2.0);
+  cursor: zoom-out;
+  transform-origin: center center;
+}
+
+.product-details h1 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #333;
+  text-decoration: underline;
+}
+
+.product-details p {
+  font-size: 1rem;
+  margin: 10px 0;
+  color: #555;
+}
+
+.product-details h3 {
+  font-size: 1.5rem;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: #222;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 5px;
+  text-decoration: underline;
+}
+
+.sevillana-regular {
+  font-family: "Sevillana", cursive;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.roboto-condensed {
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.nerko-one-regular {
+  font-family: "Nerko One", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.uli {
+  list-style: none;  
+}
+
+.lists ul {
+  padding-left: 20px;
+}
+
+.product-details li {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.product-details strong {
+  color: #333;
+}
+
+.product-details button {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.product-details button:hover {
+  background: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .product-details {
+    padding: 15px;
+  }
+
+  .product-details h1 {
+    font-size: 1.5rem;
+    text-decoration: underline;
+  }
+
+  .product-details p,
+  .product-details li {
+    font-size: 1rem;
+  }
+
+  .product-details h3 {
+    font-size: 1.25rem;
+    text-decoration: underline;
+  }
+}

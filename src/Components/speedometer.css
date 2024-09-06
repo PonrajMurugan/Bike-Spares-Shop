@@ -1,0 +1,65 @@
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  gap: 50px;
+}
+
+.product-item {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  width: 200px;
+  /* width: calc(25% - 16px); */ 
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.product-item:hover {
+  transform: scale(1.05) translateY(-10px); 
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+
+}
+
+.product-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.product-item h2 {
+  font-size: 1.2rem;
+  margin: 8px 0;
+}
+
+.product-item p {
+  font-size: 1rem;
+  color: #333;
+}
+
+.spm h1{
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  transition: color 0.3s ease, transform 0.3s ease, text-shadow 0.3s ease;
+  /* cursor: pointer;  */
+}
+.baskervville-sc-regular {
+  font-family: "Baskervville SC", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.spm h1:hover{
+  color: #007bff; 
+  transform: scale(1.05);
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+button{
+  margin: 10px 10px;
+}
