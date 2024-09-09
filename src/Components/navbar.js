@@ -21,8 +21,8 @@ const Navbars = ({ onSearch }) => {
     };
 
     return (
-        <div className='margin-top container bk b-r'>
-            <nav className=" container navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <div className='margin-top bk b-r'>
+            <nav className="  navbar navbar-expand-lg bg-body-tertiary fixed-top">
                 <div className="container-fluid">
                     <a className="navbar-brand" href="/">
                         <img className='img-size' src="https://eauto.co.in/cdn/shop/files/logo-eauto-warehouse_5_210x@2x.png?v=1615902614" alt="Bootstrap" width="70" height="44" />
